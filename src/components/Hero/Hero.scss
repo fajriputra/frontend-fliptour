@@ -1,0 +1,74 @@
+.section-hero {
+  padding-top: 0;
+
+  @media (min-width: 992px) {
+    padding-top: 24px;
+  }
+
+  .text-banner {
+    width: 100%;
+
+    @media (min-width: 992px) {
+      width: 453px;
+      z-index: 1;
+    }
+
+    .headline {
+      font-size: 34px;
+      @media (min-width: 411px) {
+        font-size: 42px;
+      }
+    }
+
+    .subline {
+      font-size: 1.25rem;
+    }
+
+    .btn-explore {
+      padding: 0.875rem 1.5rem;
+      box-shadow: none;
+      background-color: #2568ef;
+      color: #ffffff;
+      border-radius: 7px;
+
+      span {
+        background-image: url("../../assets/images/icons/right-arrow.svg");
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 32px;
+        padding-left: 5px;
+        border: none;
+      }
+
+      &:hover {
+        background-color: transparent;
+        border: 1px solid #2568ef;
+        color: #2568ef;
+      }
+    }
+
+    .feature > div {
+      margin-right: -18px !important;
+
+      @media (min-width: 411px) {
+        margin-right: 0 !important;
+      }
+    }
+  }
+
+  .hero-banner {
+    display: none;
+    padding-left: 0;
+
+    @media (min-width: 992px) {
+      display: block;
+
+      img {
+        width: 800px;
+        position: absolute;
+        top: -280px;
+        left: -50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.col-7 {
+  flex: none;
+  max-width: none;
+
+  @media (min-width: 992px) {
+    padding-right: 48px;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+}
+
+.col-5 {
+  flex: none;
+  max-width: none;
+
+  @media (min-width: 992px) {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+}

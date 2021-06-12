@@ -1,0 +1,10 @@
+.breadcrumb {
+  background-color: #eeeeee;
+  border-radius: 0;
+
+  margin-bottom: 40px;
+
+  @media (min-width: 992px) {
+    padding-left: 9%;
+  }
+}

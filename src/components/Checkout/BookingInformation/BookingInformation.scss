@@ -1,0 +1,19 @@
+.hotel-booking {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  @media (min-width: 992px) {
+    padding: 48px 80px 0 0;
+    border-right: 1px solid #808080;
+  }
+}
+
+.booking-form {
+  @media (min-width: 992px) {
+    padding: 48px 0 0 80px;
+  }
+
+  label {
+    font-family: "Roboto", sans-serif;
+  }
+}

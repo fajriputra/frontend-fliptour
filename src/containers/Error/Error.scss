@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 19% auto;
+
+  @media (min-width: 992px) {
+    margin: 4% auto;
+  }
+  .error-info {
+    h3 {
+      font-size: 2.2175rem;
+    }
+
+    a {
+      color: #2568ef;
+
+      &:hover {
+        text-decoration: none;
+        color: #064ad3;
+      }
+    }
+  }
+}

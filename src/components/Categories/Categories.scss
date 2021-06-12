@@ -1,0 +1,29 @@
+.btn-slider {
+  width: 35px;
+  min-height: 35px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.right {
+  position: absolute;
+  top: 40%;
+  right: 9px;
+  z-index: 999;
+  background-color: #f68247;
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
+}
+
+.left {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 999;
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
+}

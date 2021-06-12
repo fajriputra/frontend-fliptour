@@ -1,0 +1,13 @@
+.col-4 {
+  flex: none;
+  max-width: none;
+
+  @media (min-width: 992px) {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  // p {
+  //   margin-bottom: 50px;
+  // }
+}

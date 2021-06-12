@@ -1,0 +1,36 @@
+.info-rekening {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  @media (min-width: 992px) {
+    padding: 48px 80px 0 0;
+  }
+
+  .col-3 {
+    flex: 0;
+    max-width: none;
+  }
+
+  p.mb-4 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+
+    span {
+      color: #152c5b;
+      font-weight: 600;
+
+      &.total {
+        color: #000000;
+      }
+    }
+  }
+}
+
+.payment-form {
+  @media (min-width: 992px) {
+    padding: 48px 0 0 80px;
+  }
+}

@@ -1,0 +1,119 @@
+.login-page {
+  margin-bottom: 0;
+
+  .full-width {
+    @media (max-width: 768px) {
+      img {
+        display: none;
+      }
+    }
+
+    @media (min-width: 992px) {
+      height: 100vh;
+    }
+  }
+
+  .col {
+    position: absolute;
+    overflow: hidden;
+
+    @media (min-width: 992px) {
+      position: relative;
+    }
+  }
+
+  .sign-in {
+    padding: 40px 0 0 0;
+
+    @media (min-width: 411px) {
+      padding: 60px 0 0 0;
+    }
+
+    @media (min-width: 992px) {
+      padding: 48px 0 0 0;
+    }
+
+    @media (max-width: 410px) {
+      h1 {
+        font-size: 1.5rem !important;
+        margin: 2rem !important;
+      }
+    }
+
+    form {
+      width: 90%;
+
+      @media (min-width: 992px) {
+        width: 50%;
+      }
+
+      .form-group {
+        height: 50px;
+        margin-bottom: 30px;
+      }
+
+      .form-control {
+        padding-left: 42px;
+        border-radius: 4px;
+        height: 50px;
+      }
+
+      .icon {
+        position: absolute;
+        top: 30%;
+        left: 1.25rem;
+        z-index: 9;
+      }
+
+      .password-toggle-icon {
+        position: absolute;
+        top: 27%;
+        right: 1.25rem;
+      }
+    }
+
+    .dont-have-account {
+      margin-top: 45px;
+
+      @media (min-width: 992px) {
+        margin-top: 30px;
+      }
+
+      a {
+        font-weight: 300;
+        color: #0004da;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .forgotpassword {
+      position: relative;
+      right: -61%;
+      bottom: 34px;
+
+      @media (min-width: 411px) {
+        right: -65%;
+      }
+
+      @media (min-width: 992px) {
+        right: -63.5%;
+      }
+
+      a {
+        font-size: 0.825rem;
+        color: #0004da;
+      }
+    }
+  }
+
+  h2.h6 {
+    color: #ffffff;
+
+    @media (min-width: 992px) {
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.btn {
+  font-size: 1rem;
+
+  &-prev {
+    color: #000000 !important;
+
+    &:hover {
+      color: #292929;
+    }
+  }
+
+  &-next {
+    background-color: #2568ef;
+    color: #ffffff;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #064ad3;
+    }
+  }
+
+  @media (min-width: 992px) {
+    font-size: 1.125rem;
+  }
+}

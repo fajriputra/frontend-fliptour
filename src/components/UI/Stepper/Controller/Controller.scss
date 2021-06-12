@@ -1,0 +1,9 @@
+.col-3 {
+  flex: 0 0 55%;
+  max-width: 55%;
+
+  @media (min-width: 992px) {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

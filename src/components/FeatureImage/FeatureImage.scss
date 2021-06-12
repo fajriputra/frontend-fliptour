@@ -1,0 +1,28 @@
+.wrapper-feature-image {
+  display: flex;
+  overflow: auto;
+  z-index: 3;
+
+  .feature-img {
+    width: 300px;
+    margin-right: 20px;
+    height: 420px;
+
+    @media (min-width: 992px) {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    position: relative;
+    z-index: 3;
+  }
+}

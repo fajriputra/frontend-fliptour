@@ -1,0 +1,41 @@
+.whatsappChat {
+  position: fixed;
+  bottom: 8%;
+  right: 4%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(163, 255, 150);
+  border: none;
+  outline: none;
+  z-index: 999;
+
+  @media (min-width: 768px) {
+    width: 80px;
+    height: 80px;
+    bottom: 100px;
+    right: 35px;
+  }
+
+  @media (min-width: 992px) {
+    width: 60px;
+    height: 60px;
+    bottom: 10%;
+  }
+
+  .whatsapp-image {
+    background-image: url("../../assets/images/icons/whatsapp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 60px;
+
+    @media (min-width: 768px) {
+      height: 80px;
+    }
+
+    @media (min-width: 992px) {
+      height: 60px;
+    }
+  }
+}

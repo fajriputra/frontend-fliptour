@@ -1,0 +1,101 @@
+.register-page {
+  margin-bottom: 0;
+
+  .full-width {
+    @media (max-width: 768px) {
+      img {
+        display: none;
+      }
+    }
+
+    @media (min-width: 992px) {
+      height: 100%;
+    }
+  }
+
+  .col {
+    position: absolute;
+    overflow: hidden;
+
+    @media (min-width: 992px) {
+      position: relative;
+    }
+  }
+
+  .sign-up {
+    padding: 32px 0 0 0;
+
+    @media (min-width: 992px) {
+      padding: 48px 0;
+    }
+
+    @media (max-width: 410px) {
+      h1 {
+        font-size: 1.5rem !important;
+        margin: 2rem !important;
+      }
+    }
+
+    form {
+      width: 90%;
+
+      @media (min-width: 992px) {
+        width: 50%;
+      }
+
+      .form-group {
+        height: 50px;
+        margin-bottom: 30px;
+      }
+
+      .form-control {
+        padding-left: 42px;
+        height: 50px;
+        border-radius: 4px;
+      }
+
+      .icon {
+        position: absolute;
+        top: 30%;
+        left: 1.25rem;
+        z-index: 9;
+      }
+
+      .password-toggle-icon {
+        position: absolute;
+        top: 27%;
+        right: 1.25rem;
+      }
+    }
+    .already-have-account {
+      margin: 45px auto;
+      a {
+        font-weight: 300;
+        color: #0004da;
+      }
+    }
+
+    a {
+      color: #0004da;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    p.text-center {
+      font-size: 14px;
+      line-height: 1.68em;
+      margin: 30px auto;
+      color: #000000;
+    }
+  }
+
+  h2.h6 {
+    color: #ffffff;
+
+    @media (min-width: 992px) {
+      color: #000000;
+    }
+  }
+}

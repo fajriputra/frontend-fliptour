@@ -1,0 +1,17 @@
+h6 {
+  span {
+    color: #000000;
+    font-weight: 500;
+  }
+}
+
+.btn-book {
+  color: #ffffff;
+  background-color: #2568ef;
+  font-size: 1.125rem;
+
+  &:hover {
+    background-color: #064ad3;
+    color: #ffffff;
+  }
+}

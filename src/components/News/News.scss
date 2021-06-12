@@ -1,0 +1,25 @@
+.news {
+  .wrapper-image {
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .news-image {
+    width: 300px;
+
+    @media (min-width: 992px) {
+      width: 350px;
+      max-height: 420px;
+    }
+  }
+
+  .img-wrapper {
+    height: 100%;
+    margin-bottom: 0;
+    border-radius: 0.9375rem;
+    overflow: hidden;
+  }
+}
