@@ -1,4 +1,4 @@
-// const CACHE_NAME = "LiburanYuk";
+// const CACHE_NAME = "FliptourID";
 // var urlsToCache = ["/", "/index.html"];
 
 // self.addEventListener("install", (event) => {
